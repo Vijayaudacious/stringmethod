@@ -91,6 +91,13 @@ console.log(Com);
 console.log(typeof(Com))
 
 console.log("hrllo")
+console.log("hrllo")
+console.log("hrllo")
+console.log("hrllo")
+console.log("hrllo")
+console.log("hrllo")
+console.log("hrllo")
+
 
 
 
