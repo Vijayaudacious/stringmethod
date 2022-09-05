@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Swap-two number without using thred variable</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+
+    <script>
+        document.write("Hello World javascript basic swape program <br/><br/> ")
+
+        var a = 3;
+        var b = 5;
+        document.write("1. first methods orignal value a = 3 , b = 5 <br/>")
+        a = a + b;
+        b = a - b;
+        a = a - b;
+        document.write("value of a :::: --> " + a + "<br/>");
+        document.write("value of b :::: --> " + b + "<br/><br/>");
+
+        var a = 33;
+        var b = 22;
+        document.write("2. second program XOR Opretor orignal value a = 33 , b = 22 <br/>")
+        a = a ^ b;
+        b = a ^ b;
+        a = a ^ b;
+        document.write("value of a :::: --> " + a + "<br/>");
+        document.write("value of b :::: --> " + b + "<br/><br/>");
+        // XOR Opretor
+
+        document.write("3. third program swap number orignal value a = 13 , b = 16 <br/>")
+        var a = 13;
+        var b = 16;
+        a = b + (b = a, 0);
+        document.write("value of a :::: --> " + a + "<br/>");
+        document.write("value of b :::: --> " + b + "<br/><br/>");
+
+        document.write("4. fourth program swap number ES6 consept orignal value a = 16 , b = 13 <br/>")
+        var a = 16;
+        var b = 13;
+        [a, b] = [b, a];
+        document.write("value of a :::: --> " + a + "<br/>");
+        document.write("value of b :::: --> " + b + "<br/><br/>");
+
+        document.write("5. fifth program swap number orignal value a = 07 , b = 08 <br/>")
+        var a = 07;
+        var b = 08;
+        a = (a * b) / (b = a);
+        document.write("value of a :::: --> " + a + "<br/>");
+        document.write("value of b :::: --> " + b + "<br/><br/>");
+    </script>
+</body>
+
+</html>
